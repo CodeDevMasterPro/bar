@@ -25,6 +25,10 @@ export default new Router({
             children: [ // 其它所有组件都是 Layout的子组件
                 route("/index/content", "/Content", "Content"),
                 route("/order/orderManager", '/order/OderManager', "OderManager"),
+                route("/indexPage/slideshowManager", '/indexPage/SlideshowManager', "SlideshowManager"),
+                route("/indexPage/barInfoManager", '/indexPage/BarInfoManager', "BarInfoManager"),
+                route("/goods/goodsManager", '/goods/GoodsManager', "GoodsManager"),
+                route("/category/categoryManager", '/category/CategoryManager', "CategoryManager"),
             ]
         }
     ]
